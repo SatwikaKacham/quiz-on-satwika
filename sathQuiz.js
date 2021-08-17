@@ -4,14 +4,22 @@ var rls = require("readline-sync");
 var score=0;
 var queAns = [{
    question: "what is my initial full form ? ",
-   answer: "kacham",
+   answer: "Kacham",
  },{
    question: "where did i born? ",
-   answer: "kamareddy",
+   answer: "Kamareddy",
  },{
    question: "my college name? ",
-   answer : "narayanamma",
- }]
+   answer : "Narayanamma",
+ },
+ {
+  question: "Where do i live ",
+  answer : "Banswada",
+},
+{
+  question: "What is my birthday month ",
+  answer : "October",
+}]
  {
    for (i=0;i<queAns.length;i++)
    {
